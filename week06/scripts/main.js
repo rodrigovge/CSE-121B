@@ -36,7 +36,7 @@ function output(quotes) {
 // async function to get the quotes
 let getQuotes = async () => {
     let response = await fetch(
-        "https://raw.githubusercontent.com/rodrigovge/CSE-121B/master/week06/quotes.json"
+        "https://rodrigovge.github.io/CSE121B/week06/quotes.json"
     );
     quotesData = await response.json();
 
